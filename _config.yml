@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Mieka Delaney John
+email: miekadelaney@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Check out my travel pics, yo!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: florifitzii
+github_username:  florifitzii
+
+# Build settings
+sass: 
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+markdown: kramdown
