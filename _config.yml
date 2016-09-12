@@ -12,13 +12,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Check out my travel pics, yo!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
-twitter_username: florifitzii
-github_username:  florifitzii
 
 # Build settings
-sass: 
+sass:
   sass_dir: _sass
-include: ['_pages']
 kramdown:
   input: GFM
 markdown: kramdown
