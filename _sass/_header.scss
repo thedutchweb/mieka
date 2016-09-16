@@ -1,0 +1,79 @@
+
+header {
+  height: 100vh;
+}
+
+// NAVIGATION //
+.logo{
+  padding: 40px;
+}
+
+.site-nav{
+  position: absolute;
+  top: 35px;
+  right: 85px;
+  font-family: "PT Mono";
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+.nav-item{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 37px;
+  font-weight: lighter;
+}
+
+// LION IMAGE //
+
+.lion-frame{
+  width:50%;
+  margin: auto;
+
+}
+
+.lion-base{
+  display:inline-block;
+  position: absolute;
+  &.lionhead {
+    width:400px;
+    left: 50%;
+    margin-left: -200px;
+    top:50%;
+    margin-top: -240px;
+    z-index:1
+  }
+  &.polygon-back {
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    top:50%;
+    margin-top: -281.5px;
+    z-index: -1;
+  }
+  &.polygon-front {
+    width: 390px;
+    left: 50%;
+    margin-left: -210px;
+    top:50%;
+    margin-top: -237px;
+    z-index: 2;
+  }
+  &.agency{
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display:inline-block;
+    margin-top: 450px;
+    margin-left:500px;
+    z-index:1;
+  }
+  &.shapes {
+    margin-left: -392px;
+    margin-top: -274px;
+    top: 50%;
+    left: 50%;
+
+  }
+}
