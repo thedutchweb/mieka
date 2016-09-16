@@ -7,8 +7,13 @@
 
     {% include header.html %}
 
-    {{ content }}
+    {% include about.html %}
 
+    {% if(false) %}
+      {% include team.html %}
+      {% include contact.html %}
+    {% endif %}
+    
     {% include footer.html %}
 
   </body>

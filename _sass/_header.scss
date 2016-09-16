@@ -29,12 +29,17 @@ header {
 .lion-frame{
   width:50%;
   margin: auto;
+  height: 100px;
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 
 }
 
 .lion-base{
   display:inline-block;
   position: absolute;
+
   &.lionhead {
     width:400px;
     left: 50%;
@@ -65,8 +70,8 @@ header {
     font-size: 28px;
     font-weight: bold;
     display:inline-block;
-    margin-top: 450px;
-    margin-left:500px;
+    bottom:20%;
+    left:62%;
     z-index:1;
   }
   &.shapes {
@@ -74,6 +79,53 @@ header {
     margin-top: -274px;
     top: 50%;
     left: 50%;
-
   }
+
+  // MOBILE
+  @media (max-width: 480px) {
+    &.lionhead {
+      width:200px;
+      left: 50%;
+      margin-left: -100px;
+      top:50%;
+      margin-top: -140px;
+      z-index:1
+    }
+    &.polygon-back {
+      width: 250px;
+      left: 50%;
+      margin-left: -125px;
+      top:50%;
+      margin-top: -181.5px;
+      z-index: -1;
+    }
+    &.polygon-front {
+      width: 190px;
+      left: 50%;
+      margin-left: -110px;
+      top:50%;
+      margin-top: -137px;
+      z-index: 2;
+    }
+    &.agency{
+      color: #fff;
+      font-family: Montserrat,sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      display:inline-block;
+      margin: 0;
+      top: auto;
+      left: 30px;
+      bottom : 100px;
+      z-index:1;
+    }
+    &.shapes {
+      margin: 0;
+      top: 10%;
+      left: 0;
+      right:0;
+
+    }
+  }
+
 }
