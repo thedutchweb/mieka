@@ -1,17 +1,81 @@
+// ------------------------ MOBILE VIEW ------------------------//
 
+// makes header the height of the entire viewport before starting new section
 header {
   height: 100vh;
 }
 
-// NAVIGATION //
+// ------ MOBILE - LIONHEAD ------//
+.lion-frame{
+  width: 100%;
+}
+
+.lion-base{
+  display:inline-block;
+  position: absolute;
+
+  &.lionhead {
+    width:200px;
+    left: 50%;
+    margin-left: -96px;
+    top:50%;
+    margin-top: -140px;
+    z-index:1
+  }
+  &.polygon-back {
+    width: 250px;
+    left: 50%;
+    margin-left: -123px;
+    top:50%;
+    margin-top: -160.5px;
+    z-index: -1;
+  }
+  &.polygon-front {
+    width: 190px;
+    left: 50%;
+    margin-left: -100px;
+    top:50%;
+    margin-top: -137px;
+    z-index: 2;
+  }
+  &.agency{
+    color: #fff;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display:inline-block;
+    margin: 0;
+    top: auto;
+    left: 37px;
+    bottom : 65px;
+    z-index:1;
+  }
+  &.shapes {
+    margin: 0;
+    top: 25%;
+    left: 0;
+    right:0;
+  }
+}
+
+// ------ MOBILE NAVIGATION ------//
 .logo{
-  padding: 40px;
+  width: 110px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.logo-img{
+  width:70px;
+  height: 55.25px;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .site-nav{
   position: absolute;
-  top: 35px;
-  right: 85px;
+  top: 20px;
+  left: 120px;
   font-family: "PT Mono";
   text-transform: uppercase;
   z-index: 100;
@@ -20,112 +84,7 @@ header {
 .nav-item{
   color: #fff;
   text-decoration: none;
-  margin-left: 37px;
   font-weight: lighter;
-}
-
-// LION IMAGE //
-
-.lion-frame{
-  width:50%;
-  margin: auto;
-  height: 100px;
-  @media (max-width: 480px) {
-    width: 100%;
-  }
-
-}
-
-.lion-base{
-  display:inline-block;
-  position: absolute;
-
-  &.lionhead {
-    width:400px;
-    left: 50%;
-    margin-left: -200px;
-    top:50%;
-    margin-top: -240px;
-    z-index:1
-  }
-  &.polygon-back {
-    width: 500px;
-    left: 50%;
-    margin-left: -250px;
-    top:50%;
-    margin-top: -281.5px;
-    z-index: -1;
-  }
-  &.polygon-front {
-    width: 390px;
-    left: 50%;
-    margin-left: -210px;
-    top:50%;
-    margin-top: -237px;
-    z-index: 2;
-  }
-  &.agency{
-    color: #fff;
-    font-family: Montserrat,sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    display:inline-block;
-    bottom:20%;
-    left:62%;
-    z-index:1;
-  }
-  &.shapes {
-    margin-left: -392px;
-    margin-top: -274px;
-    top: 50%;
-    left: 50%;
-  }
-
-  // MOBILE
-  @media (max-width: 480px) {
-    &.lionhead {
-      width:200px;
-      left: 50%;
-      margin-left: -100px;
-      top:50%;
-      margin-top: -140px;
-      z-index:1
-    }
-    &.polygon-back {
-      width: 250px;
-      left: 50%;
-      margin-left: -125px;
-      top:50%;
-      margin-top: -181.5px;
-      z-index: -1;
-    }
-    &.polygon-front {
-      width: 190px;
-      left: 50%;
-      margin-left: -110px;
-      top:50%;
-      margin-top: -137px;
-      z-index: 2;
-    }
-    &.agency{
-      color: #fff;
-      font-family: Montserrat,sans-serif;
-      font-size: 28px;
-      font-weight: bold;
-      display:inline-block;
-      margin: 0;
-      top: auto;
-      left: 30px;
-      bottom : 100px;
-      z-index:1;
-    }
-    &.shapes {
-      margin: 0;
-      top: 10%;
-      left: 0;
-      right:0;
-
-    }
-  }
-
+  padding-left: 30px;
+  font-size: 1.8em
 }

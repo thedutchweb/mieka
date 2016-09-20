@@ -1,54 +1,61 @@
-// ABOUT US SECTION //
+// ------------------------ MOBILE VIEW ------------------------//
+h1{
+  color: #FF4F4F;
+  font-family: 'PT Mono', sans-serif;
+  font-size: 10em;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+h2{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+// ------ MOBILE - ABOUT US SECTION ------//
+
 .about-us {
-  margin-left:30%;
+  padding-left: 10px;
   display:inline-block;
 }
 
 .about-us h2{
-  font-size: 15px;
+  font-size: 3em;
   font-weight: bold;
   letter-spacing: 4.4px;
   text-transform: uppercase;
 }
 
 .red-dutch{
-  float:right;
-  padding: 0px;
+  padding-left: 10px;
 }
 
 .info {
-  display:inline-block;
-  height:300px;
-  width: 340px;
-  float:left;
+  // display:inline-block;
+  // height:300px;
+  // width: 340px;
+  // float:left;
+  padding-left:10px;
 }
 
 .info h2{
   font-family: 'Montserrat', sans-serif;
-  font-size: 4vw;
-  font-weight: normal;
+  font-size: 3em;
+  // font-weight: normal;
   line-height: 29px;
 }
-
-strong{
-  font-weight: bold;
-}
-.awesome{
-  text-decoration: underline;
-}
-
-.info h3{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5vw;
-  line-height:24px;
-}
-
-.section1 {
-  height: 20px;
-  background-color: red;
-}
-
-.section2 {
-  height: 20px;
-  background-color: blue;
-}
+//
+// strong{
+//   font-weight: bold;
+// }
+// .awesome{
+//   text-decoration: underline;
+// }
+//
+// .info h3{
+//   font-family: 'Montserrat', sans-serif;
+//   font-size: 2.5vw;
+//   line-height:24px;
+// }

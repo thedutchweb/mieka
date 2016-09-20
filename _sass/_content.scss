@@ -1,31 +1,17 @@
 
-// FONTS //
 
-h1{
-  color: #FF4F4F;
-  font-family: 'PT Mono', sans-serif;
-  // font-size: 80px;
-  font-size: 15vw;
-  // line-height: 80px;
-  text-transform: uppercase;
-  font-weight: 500;
-
+body{
+  font-size: 62.5%;
 }
 
-h2{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-}
 
-@font-face {
-  font-family:"PT Mono";
-  src: url("../fonts/pt-mono") format('truetype');
-}
+// ------------------------ MOBILE VIEW ------------------------//
 
 // SECTIONS GENERAL //
 .section {
-  padding: 200px 0;
+  padding-top:70px;
+  padding-bottom: 70px;
+
   &.white {
     background-color: #fff;
     color: #000;
