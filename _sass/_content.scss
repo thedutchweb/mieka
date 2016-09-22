@@ -9,7 +9,7 @@ body{
 
 // SECTIONS GENERAL //
 .section {
-  padding-top:70px;
+  padding-top:65px;
   padding-bottom: 70px;
 
   &.white {
@@ -18,8 +18,7 @@ body{
   }
   &.transparent {
     color: #fff;
-    margin: auto;
-    width: 50%;
+
   }
   &.contact{
     background-color: #fff;

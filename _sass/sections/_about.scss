@@ -1,11 +1,14 @@
 // ------------------------ MOBILE VIEW ------------------------//
+
+
+// ------ MOBILE - GENERAL AND ABOUT SECTION FONTS ------//
+
 h1{
   color: #FF4F4F;
   font-family: 'PT Mono', sans-serif;
   font-size: 10em;
   text-transform: uppercase;
   font-weight: 500;
-
 }
 
 h2{
@@ -13,49 +16,50 @@ h2{
   font-family: 'Montserrat', sans-serif;
 }
 
-
-// ------ MOBILE - ABOUT US SECTION ------//
-
-.about-us {
-  padding-left: 10px;
-  display:inline-block;
-}
-
 .about-us h2{
-  font-size: 3em;
-  font-weight: bold;
-  letter-spacing: 4.4px;
+  font-size: 2.4em;
+  font-weight: bolder;
+  letter-spacing: 5px;
   text-transform: uppercase;
-}
-
-.red-dutch{
-  padding-left: 10px;
-}
-
-.info {
-  // display:inline-block;
-  // height:300px;
-  // width: 340px;
-  // float:left;
-  padding-left:10px;
 }
 
 .info h2{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  // font-weight: normal;
+  font-size: 3.2em;
   line-height: 29px;
 }
-//
-// strong{
-//   font-weight: bold;
-// }
-// .awesome{
-//   text-decoration: underline;
-// }
-//
-// .info h3{
-//   font-family: 'Montserrat', sans-serif;
-//   font-size: 2.5vw;
-//   line-height:24px;
-// }
+
+// ------ MOBILE - ABOUT US SECTION ------//
+
+.about-us {
+  display:inline-block;
+  padding-left: 15px;
+  padding-bottom: 10px;
+
+}
+
+.red-dutch{
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.info {
+  width: 275px;
+  padding-left:15px;
+}
+
+.info h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.2em;
+  line-height: 29px;
+}
+
+.awesome{
+  text-decoration: underline;
+}
+
+.info h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4em;
+  line-height:22px;
+}

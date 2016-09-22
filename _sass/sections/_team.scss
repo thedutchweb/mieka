@@ -1,57 +1,87 @@
-// THE TEAM SECTION //
+// ------------------------ MOBILE VIEW ------------------------//
 
-#repeat{
+// ------ MOBILE - TEAM SECTION FONTS ------//
+.team-title h1{
+  color: #fff;
+  font-size: 59px;
+  font-weight: bold;
+}
+
+h4{
+  font-family:"Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.team-top h4{
+  font-size:18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+
+h5{
+  font-family:"American Typewriter", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+// ------ MOBILE - TEAM SECTION - INFO ------//
+
+.team-top{
+  padding-left: 30px;
+  width:300px;
+  padding-bottom: 30px;
+}
+
+.team-title{
+  padding-bottom: 10px;
+}
+
+
+
+// ------ MOBILE - TEAM SECTION - PROFILES ------//
+
+.kasper{
+  background: url("../img/PARALLAX/kasper.png");
+}
+
+.pieter{
+  background: url("../img/PARALLAX/pj.png");
+}
+
+.wouter{
+  background: url("../img/PARALLAX/wouter.png");
+}
+
+.carlo{
+  background: url("../img/PARALLAX/kasper.png");
+}
+
+.profile-pic {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+  height: 190px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+.frame{
+  padding-bottom: 30px;
+}
+
+.shapes{
+  background-image: url("../img/SHAPES.png");
+  width:320px;
   background-repeat: repeat-y;
 }
 
-.team-section {
+.name{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  .shapes {
-    display: inline-block;
-    position: absolute;
-    width:auto;
-    margin-top: -100px;
-    z-index: 0;
-  }
-
-  .team-title{
-    float:right;
-  }
-
-  .photo{
-      padding: 50px;
-      display: inline-block;
-
-  }
-
-  .teaminfo{
-    width: 270px;
-    display:inline-block;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 32px;
-    text-align: right;
-  }
-
-  .team-title h1{
-    color: #fff;
-  }
-
-  .name{
-    font-family:"American Typewriter", sans-serif;
-    text-align: center;
-    font-weight: lighter;
-    letter-spacing: 2px;
-  }
-
-  .table div img{
-    margin:auto;
-    display:block;
-  }
-
-  .job-title{
-    font-family:"Avenir", sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
-  }
+.job-title{
+  text-align: center;
 }
