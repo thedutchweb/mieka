@@ -6,6 +6,7 @@ header {
 }
 
 // ------ MOBILE - LIONHEAD ------//
+
 .lion-frame{
   width: 100%;
 }
@@ -59,17 +60,74 @@ header {
 }
 
 // ------ MOBILE NAVIGATION ------//
-.logo{
-  width: 110px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
 
+  .logo-img{
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:70px;
+    height: 55.25px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .site-nav{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    font-family: "PT Mono";
+    text-transform: uppercase;
+    z-index: 100;
+  }
+
+  .nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 30px;
+    font-size: 1.8em
+  }
+
+//------------------------ IPAD VIEW ------------------------//
+
+// ------ IPAD - LIONHEAD ------//
+@media only screen and (min-width: 767px) {
+  .lion-base{
+
+    &.lionhead {
+      width:400px;
+      margin-left: -200px;
+      margin-top: -240px;
+    }
+    &.polygon-back {
+      width: 500px;
+      margin-left: -250px;
+      margin-top: -281.5px;
+    }
+    &.polygon-front {
+      width: 390px;
+      margin-left: -210px;
+      margin-top: -237px;
+    }
+    &.agency {
+      font-size: 28px;
+      bottom:20%;
+      left:62%;
+    }
+    &.shapes {
+      width: 100%
+
+    }
+  }
+// ------ IPAD NAVIGATION ------//
+@media only screen and (min-width: 767px) {
 .logo-img{
-  width:70px;
-  height: 55.25px;
-  vertical-align: middle;
-  box-sizing: border-box;
+  width:133px;
+  height: 105px;
+  margin-left:30px;
+  margin-top: 30px;
 }
 
 .site-nav{
@@ -79,6 +137,7 @@ header {
   font-family: "PT Mono";
   text-transform: uppercase;
   z-index: 100;
+
 }
 
 .nav-item{
@@ -87,4 +146,9 @@ header {
   font-weight: lighter;
   padding-left: 30px;
   font-size: 1.8em
+
+}
+}
+
+
 }
