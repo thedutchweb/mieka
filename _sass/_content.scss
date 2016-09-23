@@ -1,13 +1,11 @@
+// ------------------------ MOBILE VIEW ------------------------//
 
+// ------ GENERAL SECTIONS ------//
 
 body{
   font-size: 62.5%;
 }
 
-
-// ------------------------ MOBILE VIEW ------------------------//
-
-// SECTIONS GENERAL //
 .section {
   padding-top:65px;
   padding-bottom: 70px;
@@ -18,10 +16,5 @@ body{
   }
   &.transparent {
     color: #fff;
-
-  }
-  &.contact{
-    background-color: #fff;
-    color: #000;
   }
 }

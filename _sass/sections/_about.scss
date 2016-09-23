@@ -1,6 +1,5 @@
 // ------------------------ MOBILE VIEW ------------------------//
 
-
 // ------ MOBILE - GENERAL AND ABOUT SECTION FONTS ------//
 
 h1{
@@ -29,13 +28,18 @@ h2{
   line-height: 29px;
 }
 
+.info h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4em;
+  line-height:22px;
+}
+
 // ------ MOBILE - ABOUT US SECTION ------//
 
 .about-us {
   display:inline-block;
   padding-left: 15px;
   padding-bottom: 10px;
-
 }
 
 .red-dutch{
@@ -48,18 +52,6 @@ h2{
   padding-left:15px;
 }
 
-.info h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.2em;
-  line-height: 29px;
-}
-
 .awesome{
   text-decoration: underline;
-}
-
-.info h3{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.4em;
-  line-height:22px;
 }
