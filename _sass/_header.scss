@@ -3,6 +3,10 @@
 // makes header the height of the entire viewport before starting new section
 header {
   height: 100vh;
+  overflow: hidden;
+  background-image: url('../img/SHAPES.png');
+  background-position: center center;
+  background-repeat: repeat-y;
 }
 
 // ------ MOBILE - LIONHEAD ------//
@@ -65,6 +69,7 @@ header {
     background-image: url("../img/logo.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     width:70px;
     height: 55.25px;
     vertical-align: middle;
@@ -76,18 +81,32 @@ header {
   .site-nav{
     position: absolute;
     top: 20px;
-    left: 120px;
+    // left: 120px;
+
     font-family: "PT Mono";
     text-transform: uppercase;
     z-index: 100;
+    right: 20px;
+    @media(min-width: 768px){
+      right: 20px;
+
+    }
+    @media(min-width: 1024px){
+      right: 20px;
+
+    }
   }
 
   .nav-item{
     color: #fff;
     text-decoration: none;
-    font-weight: lighter;
+    font-weight: 100;
     padding-left: 30px;
-    font-size: 1.8em
+    font-size: 1.6em;
+    &:hover{
+      color: #fff;
+      text-decoration:none;
+    }
   }
 
 //------------------------ IPAD VIEW ------------------------//
@@ -121,34 +140,29 @@ header {
 
     }
   }
-// ------ IPAD NAVIGATION ------//
-@media only screen and (min-width: 767px) {
-.logo-img{
-  width:133px;
-  height: 105px;
-  margin-left:30px;
-  margin-top: 30px;
-}
+  // ------ IPAD NAVIGATION ------//
+  .logo-img{
+    width:133px;
+    height: 105px;
+    margin-left:30px;
+    margin-top: 30px;
+  }
 
-.site-nav{
-  position: absolute;
-  top: 20px;
-  left: 120px;
-  font-family: "PT Mono";
-  text-transform: uppercase;
-  z-index: 100;
+  .site-nav{
+    position: absolute;
+    top: 20px;
+    // left: 120px;
+    font-family: "PT Mono";
+    text-transform: uppercase;
+    z-index: 100;
 
-}
+  }
 
-.nav-item{
-  color: #fff;
-  text-decoration: none;
-  font-weight: lighter;
-  padding-left: 30px;
-  font-size: 1.8em
+  .nav-item{
+    font-weight: lighter;
+    font-size: 4em;
+    font-size: 18px;
 
-}
-}
-
+  }
 
 }
